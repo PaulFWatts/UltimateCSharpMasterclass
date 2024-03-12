@@ -5,15 +5,19 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section_01", "Section_01\Section_01.csproj", "{A8A4A4D8-821A-4CBE-8181-8A67A0BA71BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nested_Loops", "Sandbox\Nested_Loops.csproj", "{57926C3D-B04C-497B-89BC-3B1ED59D0D3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nested_Loops", "Sandbox\Nested_Loops.csproj", "{57926C3D-B04C-497B-89BC-3B1ED59D0D3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{881FD6E0-2193-4E7A-B4B5-B5D3D23C6B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{881FD6E0-2193-4E7A-B4B5-B5D3D23C6B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi-dimensional_Arrays", "Multi-dimensional_Arrays\Multi-dimensional_Arrays.csproj", "{3BB70BDC-AC13-4F5E-BDCE-0E1DD2ADF33E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multi-dimensional_Arrays", "Multi-dimensional_Arrays\Multi-dimensional_Arrays.csproj", "{3BB70BDC-AC13-4F5E-BDCE-0E1DD2ADF33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for_each_loop", "for_each_loop\for_each_loop.csproj", "{6D28EB20-A17C-4555-A503-0229C2653073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for_each_loop", "for_each_loop\for_each_loop.csproj", "{6D28EB20-A17C-4555-A503-0229C2653073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{4E24853A-5A78-445B-99AA-9D01655420C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{4E24853A-5A78-445B-99AA-9D01655420C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "out_keyword", "out_keyword\out_keyword.csproj", "{FB987D1C-E0C2-4055-BC19-8B6CF5AFF384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse_method", "TryParse_method\TryParse_method.csproj", "{E9EE7D81-5B15-4697-A385-21F8C0567138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{4E24853A-5A78-445B-99AA-9D01655420C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E24853A-5A78-445B-99AA-9D01655420C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E24853A-5A78-445B-99AA-9D01655420C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB987D1C-E0C2-4055-BC19-8B6CF5AFF384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB987D1C-E0C2-4055-BC19-8B6CF5AFF384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB987D1C-E0C2-4055-BC19-8B6CF5AFF384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB987D1C-E0C2-4055-BC19-8B6CF5AFF384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EE7D81-5B15-4697-A385-21F8C0567138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EE7D81-5B15-4697-A385-21F8C0567138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EE7D81-5B15-4697-A385-21F8C0567138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EE7D81-5B15-4697-A385-21F8C0567138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
