@@ -41,7 +41,7 @@ class MedicalAppointment
     {
         _date = date;
         var printer = new MedicalAppointmentPrinter();
-        printer.Print(this);
+        printer.Print(this);                    // Pass the current instance of the class
     }
 
     public void Reschedule(int month, int day) // Method overloading, must have a different signature
