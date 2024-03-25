@@ -5,7 +5,15 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Understanding OOP with DateTime", "Understanding OOP with DateTime\Understanding OOP with DateTime.csproj", "{CC8D679C-1F1A-405E-B2C9-D5D0ED253F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our first class", "Our first class\Our first class.csproj", "{118A6BB5-6F9B-40A3-86CD-5CF01CB3883E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Our first class", "Our first class\Our first class.csproj", "{118A6BB5-6F9B-40A3-86CD-5CF01CB3883E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods overloading", "Methods overloading\Methods overloading.csproj", "{6A74F887-F7E7-4108-9EFD-E72EBF771DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors overloading", "Constructors overloading\Constructors overloading.csproj", "{D8DBFDEA-62E5-42ED-B76E-AC23AE45392B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression-bodied methods", "Expression-bodied methods\Expression-bodied methods.csproj", "{C5212180-64F6-467D-9EB0-28CDFAEE4CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "this keyword(current instance reference)", "this keyword(current instance reference)\this keyword(current instance reference).csproj", "{19542D7B-3944-4412-81C2-EE2F715E9773}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{118A6BB5-6F9B-40A3-86CD-5CF01CB3883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118A6BB5-6F9B-40A3-86CD-5CF01CB3883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118A6BB5-6F9B-40A3-86CD-5CF01CB3883E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A74F887-F7E7-4108-9EFD-E72EBF771DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A74F887-F7E7-4108-9EFD-E72EBF771DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A74F887-F7E7-4108-9EFD-E72EBF771DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A74F887-F7E7-4108-9EFD-E72EBF771DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DBFDEA-62E5-42ED-B76E-AC23AE45392B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DBFDEA-62E5-42ED-B76E-AC23AE45392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DBFDEA-62E5-42ED-B76E-AC23AE45392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DBFDEA-62E5-42ED-B76E-AC23AE45392B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5212180-64F6-467D-9EB0-28CDFAEE4CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5212180-64F6-467D-9EB0-28CDFAEE4CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5212180-64F6-467D-9EB0-28CDFAEE4CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5212180-64F6-467D-9EB0-28CDFAEE4CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19542D7B-3944-4412-81C2-EE2F715E9773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19542D7B-3944-4412-81C2-EE2F715E9773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19542D7B-3944-4412-81C2-EE2F715E9773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19542D7B-3944-4412-81C2-EE2F715E9773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
