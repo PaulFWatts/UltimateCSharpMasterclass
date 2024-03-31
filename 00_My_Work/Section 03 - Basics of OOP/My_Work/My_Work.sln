@@ -19,9 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optional parameters", "Opti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation of constructor parameters", "Validation of constructor parameters\Validation of constructor parameters.csproj", "{3E490C39-1C99-4A86-893C-195F858F1967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readonly and const", "Readonly and const\Readonly and const.csproj", "{9944FA82-3750-491E-B31F-1FB288DF9896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Readonly and const", "Readonly and const\Readonly and const.csproj", "{9944FA82-3750-491E-B31F-1FB288DF9896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limitations of fields", "Limitations of fields\Limitations of fields.csproj", "{FE54F4CE-121F-4D96-A261-8AD2917C4628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Limitations of fields", "Limitations of fields\Limitations of fields.csproj", "{FE54F4CE-121F-4D96-A261-8AD2917C4628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Properties", "Properties\Properties.csproj", "{45C0BF53-759C-4839-A410-82FCD2AD6B62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object initializers", "Object initializers\Object initializers.csproj", "{64A94B98-A191-4CBF-9CC1-23C9026EEE6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computed properties", "Computed properties\Computed properties.csproj", "{BD2774B0-8541-41DB-B63A-A4DA55832190}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static methods and classes", "Static methods and classes\Static methods and classes.csproj", "{39857DED-0CC2-40A9-AFE0-DDEDCD2B2EE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static fields properties and constructors", "Static fileds properties and constructors\Static fields properties and constructors.csproj", "{14A4CC15-F119-4617-BD58-C2D1A79B7C33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Responsibility Principle", "Single Responsibility Principle - Introduction\Single Responsibility Principle.csproj", "{C448DD0E-0C3C-49C4-A13E-7FE555D77B6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +81,30 @@ Global
 		{FE54F4CE-121F-4D96-A261-8AD2917C4628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE54F4CE-121F-4D96-A261-8AD2917C4628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE54F4CE-121F-4D96-A261-8AD2917C4628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C0BF53-759C-4839-A410-82FCD2AD6B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C0BF53-759C-4839-A410-82FCD2AD6B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C0BF53-759C-4839-A410-82FCD2AD6B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C0BF53-759C-4839-A410-82FCD2AD6B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A94B98-A191-4CBF-9CC1-23C9026EEE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A94B98-A191-4CBF-9CC1-23C9026EEE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A94B98-A191-4CBF-9CC1-23C9026EEE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A94B98-A191-4CBF-9CC1-23C9026EEE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2774B0-8541-41DB-B63A-A4DA55832190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2774B0-8541-41DB-B63A-A4DA55832190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2774B0-8541-41DB-B63A-A4DA55832190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2774B0-8541-41DB-B63A-A4DA55832190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39857DED-0CC2-40A9-AFE0-DDEDCD2B2EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39857DED-0CC2-40A9-AFE0-DDEDCD2B2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39857DED-0CC2-40A9-AFE0-DDEDCD2B2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39857DED-0CC2-40A9-AFE0-DDEDCD2B2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A4CC15-F119-4617-BD58-C2D1A79B7C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A4CC15-F119-4617-BD58-C2D1A79B7C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A4CC15-F119-4617-BD58-C2D1A79B7C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A4CC15-F119-4617-BD58-C2D1A79B7C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C448DD0E-0C3C-49C4-A13E-7FE555D77B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C448DD0E-0C3C-49C4-A13E-7FE555D77B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C448DD0E-0C3C-49C4-A13E-7FE555D77B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C448DD0E-0C3C-49C4-A13E-7FE555D77B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
