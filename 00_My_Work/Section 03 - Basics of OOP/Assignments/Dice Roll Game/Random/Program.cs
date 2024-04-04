@@ -1,20 +1,12 @@
-﻿var random = new Random();
-var diceRollResult = random.Next(1, 7);
+﻿using Dice_Roll_Game.Game;
 
+var random = new Random();
+var dice = new Dice(random);
+var guessingGame = new GuessingGame(dice);
+
+GameResult gameResult = guessingGame.Play();
+GuessingGame.PrintResult(gameResult);
 
 Console.ReadKey();
 
-class Dice
-{
-    private readonly Random _random;
 
-    public Dice(Random random)
-    {
-        _random = random;
-    }
-
-    public int Roll()
-    {
-        return _random.Next(1, 7);
-    }
-}
