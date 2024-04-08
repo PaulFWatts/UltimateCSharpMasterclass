@@ -3,21 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A need for polymorphism", "My_Work\A need for polymorphism.csproj", "{19295A96-D76F-4CF6-BC4C-528C5535F436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A need for polymorphism", "My_Work\A need for polymorphism.csproj", "{19295A96-D76F-4CF6-BC4C-528C5535F436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{A356AC6D-7C2F-4460-A791-E9289880584B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{A356AC6D-7C2F-4460-A791-E9289880584B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheriting members  - Protected Access modifier", "Inheriting members  - Protected Access modifier\Inheriting members  - Protected Access modifier.csproj", "{226CC580-FB74-45E3-BDCD-103EE448000C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheriting members  - Protected Access modifier", "Inheriting members  - Protected Access modifier\Inheriting members  - Protected Access modifier.csproj", "{226CC580-FB74-45E3-BDCD-103EE448000C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overriding members from base class", "Overriding memebers from base class\Overriding members from base class.csproj", "{E1F3F2A2-E75E-423C-8319-A267921B2166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overriding members from base class", "Overriding memebers from base class\Overriding members from base class.csproj", "{E1F3F2A2-E75E-423C-8319-A267921B2166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual methods - practice", "Virtual methods - practice\Virtual methods - practice.csproj", "{B6ABF295-055B-44FA-86B3-3B64CCB3780C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual methods - practice", "Virtual methods - practice\Virtual methods - practice.csproj", "{B6ABF295-055B-44FA-86B3-3B64CCB3780C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A deeper inheritamce hierachy", "A deeper inheritamce hierachy\A deeper inheritamce hierachy.csproj", "{AF732876-E78C-4355-8E0E-33C690D7137E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A deeper inheritamce hierachy", "A deeper inheritamce hierachy\A deeper inheritamce hierachy.csproj", "{AF732876-E78C-4355-8E0E-33C690D7137E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple inheritance", "Multiple inheritance\Multiple inheritance.csproj", "{ADFC7AD9-903C-4451-8798-1D67F8750627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiple inheritance", "Multiple inheritance\Multiple inheritance.csproj", "{ADFC7AD9-903C-4451-8798-1D67F8750627}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Object and the ToString method", "System.Object and the ToString method\System.Object and the ToString method.csproj", "{9D2BF956-ADF3-4E4E-876B-ABF868CFC5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Object and the ToString method", "System.Object and the ToString method\System.Object and the ToString method.csproj", "{9D2BF956-ADF3-4E4E-876B-ABF868CFC5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheriting constructors with the base keyword", "Inheriting constructors with the base keyword\Inheriting constructors with the base keyword.csproj", "{C86B685B-A158-4173-944E-B758BE410299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implicit conversion", "Implicit conversion\Implicit conversion.csproj", "{BCE8240D-0103-4631-BECD-FBA916F0F3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explicit conversion", "Explicit conversion\Explicit conversion.csproj", "{74DF133A-DCCB-4F73-A2C2-7AC1D757B703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{9D2BF956-ADF3-4E4E-876B-ABF868CFC5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D2BF956-ADF3-4E4E-876B-ABF868CFC5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D2BF956-ADF3-4E4E-876B-ABF868CFC5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86B685B-A158-4173-944E-B758BE410299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86B685B-A158-4173-944E-B758BE410299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86B685B-A158-4173-944E-B758BE410299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86B685B-A158-4173-944E-B758BE410299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE8240D-0103-4631-BECD-FBA916F0F3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE8240D-0103-4631-BECD-FBA916F0F3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE8240D-0103-4631-BECD-FBA916F0F3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE8240D-0103-4631-BECD-FBA916F0F3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DF133A-DCCB-4F73-A2C2-7AC1D757B703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DF133A-DCCB-4F73-A2C2-7AC1D757B703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DF133A-DCCB-4F73-A2C2-7AC1D757B703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DF133A-DCCB-4F73-A2C2-7AC1D757B703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
